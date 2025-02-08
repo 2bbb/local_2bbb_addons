@@ -1,6 +1,6 @@
 #pragma one
 
-#ifnded OFX_INCLUDE_2bbb_H
+#ifndef OFX_INCLUDE_2bbb_H
 #define OFX_INCLUDE_2bbb_H
 
 #include "ofxPubSubOsc.h"
