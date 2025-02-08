@@ -12,5 +12,5 @@ after clone, add `./local_2bbb_addons/ofxInclude2bbb` to addons.make and pass to
 ## how to use
 
 ```cpp
-#include "ofxInclude2bbb.h@
+#include "ofxInclude2bbb.h"
 ```
