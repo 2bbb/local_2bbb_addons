@@ -1,0 +1,15 @@
+[submodule "ofxPubSubOsc"]
+	path = ofxPubSubOsc
+	url = git@github.com:2bbb/ofxPubSubOsc
+[submodule "ofxUDL"]
+	path = ofxUDL
+	url = git@github.com:2bbb/ofxUDL.git
+[submodule "ofxScope"]
+	path = ofxScope
+	url = https://github.com/2bbb/ofxScope
+[submodule "ofxRecordOsc"]
+	path = ofxRecordOsc
+	url = git@github.com:2bbb/ofxRecordOsc.git
+[submodule "ofxJsonUtils"]
+	path = ofxJsonUtils
+	url = git@github.com:2bbb/ofxJsonUtils.git
