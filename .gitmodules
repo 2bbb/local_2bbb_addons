@@ -13,3 +13,6 @@
 [submodule "ofxJsonUtils"]
 	path = ofxJsonUtils
 	url = git@github.com:2bbb/ofxJsonUtils.git
+[submodule "ofxBBBSnippets"]
+	path = ofxBBBSnippets
+	url = git@github.com:2bbb/ofxBBBSnippets.git

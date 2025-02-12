@@ -7,5 +7,6 @@
 #include "ofxJsonUtils.h"
 #include "ofxScope.h"
 #include "ofxUDL.h"
+#include "ofxBBBSnipets.h"
 
 #endif

@@ -11,3 +11,4 @@ common:
 	ADDON_DEPENDENCIES += ./local_2bbb_addons/ofxRecordOsc
 	ADDON_DEPENDENCIES += ./local_2bbb_addons/ofxScope
 	ADDON_DEPENDENCIES += ./local_2bbb_addons/ofxUDL
+	ADDON_DEPENDENCIES += ./local_2bbb_addons/ofxBBBSnippets
