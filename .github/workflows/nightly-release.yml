@@ -39,3 +39,15 @@ jobs:
         draft: false
         prerelease: false
         files: ${{ env.RELEASE_FILENAME }}
+
+    - name: Create Release
+      id: create_release
+      uses: softprops/action-gh-release@v0.1.15
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: nightly
+        name: nightly
+        draft: false
+        prerelease: false
+        files: ${{ env.RELEASE_FILENAME }}
