@@ -18,8 +18,9 @@ jobs:
         TZ: 'Asia/Tokyo'
       run: echo "CURRENT_DATETIME=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
     
-    - run: echo "RELEASE_FILENAME=release_${{ env.CURRENT_DATETIME }}.zip" >> $GITHUB_ENV
-      
+    - run: echo "RELEASE_FILENAME=local_2bbb_addons.zip" >> $GITHUB_ENV
+      run: echo release on ${{ env.CURRENT_DATETIME }} > ${HOME}/version
+
     - name: Archive Release
       uses: thedoctor0/zip-release@main
       with:
