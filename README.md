@@ -18,6 +18,9 @@ git clone --recursive https://github.com/2bbb/local_2bbb_addons.git
 
 after clone, add `../local_2bbb_addons/ofxInclude2bbb` to `addons.make` for your apps under `YOUR_PROJECT`, and pass to PG.
 
+or
+
+download [nightly zip](https://github.com/2bbb/local_2bbb_addons/releases/download/nightly/local_2bbb_addons.zip)
 
 ## how to use
 
