@@ -7,20 +7,11 @@ cd path/to/of_release/apps/project/YOUR_APPS
 git clone --recursive https://github.com/2bbb/local_2bbb_addons.git
 ```
 
-after clone, add `./local_2bbb_addons/ofxInclude2bbb` to `addons.make`, and pass to PG.
-
-or 
-
-```bash
-cd path/to/of_release/apps/YOUR_PROJECT
-git clone --recursive https://github.com/2bbb/local_2bbb_addons.git
-```
-
-after clone, add `../local_2bbb_addons/ofxInclude2bbb` to `addons.make` for your apps under `YOUR_PROJECT`, and pass to PG.
-
 or
 
 download [nightly zip](https://github.com/2bbb/local_2bbb_addons/releases/download/nightly/local_2bbb_addons.zip)
+
+after clone / download, add `./local_2bbb_addons/ofxInclude2bbb` to `addons.make`, and pass to PG.
 
 ## how to use
 
