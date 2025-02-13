@@ -27,15 +27,15 @@ jobs:
         type: 'zip'
         filename: ${{ env.RELEASE_FILENAME }}
         exclusions: '*.git*'
-
+      
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v0.1.15
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: nightly
-        name: nightly
+        tag_name: ${{ env.CURRENT_DATETIME }}
+        name: ${{ env.CURRENT_DATETIME }}
         draft: false
         prerelease: false
         files: ${{ env.RELEASE_FILENAME }}
