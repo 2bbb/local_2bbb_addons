@@ -20,6 +20,7 @@ jobs:
     
     - run: echo "RELEASE_FILENAME=local_2bbb_addons.zip" >> $GITHUB_ENV
     - run: echo release on ${{ env.CURRENT_DATETIME }} > /home/runner/work/local_2bbb_addons/local_2bbb_addons/version
+    - run: echo commit: $(cd /home/runner/work/local_2bbb_addons/local_2bbb_addons && git log --format="%H" -n 1) >> /home/runner/work/local_2bbb_addons/local_2bbb_addons/version
 
     - name: Archive Release
       uses: thedoctor0/zip-release@main
