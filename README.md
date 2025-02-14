@@ -21,4 +21,4 @@ after clone / download, add `./local_2bbb_addons/ofxInclude2bbb` to `addons.make
 
 ## example
 
-TBD
+see [example](https://github.com/2bbb/ofxLocal2bbbAddonsExample)
