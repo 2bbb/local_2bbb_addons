@@ -16,3 +16,6 @@
 [submodule "ofxBBBSnippets"]
 	path = ofxBBBSnippets
 	url = git@github.com:2bbb/ofxBBBSnippets.git
+[submodule "ofxKeyEvent"]
+	path = ofxKeyEvent
+	url = git@github.com:2bbb/ofxKeyEvent.git
